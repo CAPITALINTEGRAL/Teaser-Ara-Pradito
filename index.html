@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capital Integral Investments · San Antonio de Prado — Oportunidad Built-to-Suit para Tiendas Ara</title>
+<meta name="description" content="Propuesta institucional de desarrollo Built-to-Suit para Tiendas Ara (Jerónimo Martins) en Barrio Pradito, San Antonio de Prado, Medellín. Lote 497 m² · Local principal 390,28 m² · Canon COP $20MM + IVA · Vigencia 20 años.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* Paleta oficial Capital Integral Investments */
+    --teal: #004E48;        /* Verde petróleo principal (marca) */
+    --teal-deep: #143A39;   /* Verde oscuro profundo (fondos dark) */
+    --teal-mid: #4B6867;    /* Verde gris medio (acentos) */
+    --teal-mist: #EDEFEE;   /* Gris neutro muy claro (fondos soft) */
+    --ink: #0D1918;
+    --graphite: #26302E;
+    --stone-600: #54605C;
+    --stone-400: #8A948F;
+    --stone-200: #D5DAD7;
+    --stone-100: #EDEFEE;
+    --paper: #FAFAF8;
+    --white: #FFFFFF;
+    --rule: rgba(13,25,24,0.14);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'DM Sans',system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    font-weight:400;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    font-size:16px;
+  }
+  .serif{font-family:'DM Serif Display',serif;font-weight:400;letter-spacing:-0.01em}
+
+  /* ============ TOP BAR ============ */
+  .topbar{
+    position:sticky;top:0;z-index:50;
+    background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--rule);
+  }
+  .topbar-inner{
+    max-width:1320px;margin:0 auto;
+    padding:14px 48px;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .brand{display:flex;align-items:center;gap:14px}
+  .brand-logo{
+    height:34px;width:auto;display:block;
+  }
+  .brand-text{font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--stone-600);font-weight:500;padding-left:14px;border-left:1px solid var(--rule)}
+  .topbar nav{display:flex;gap:32px;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--stone-600)}
+  .topbar nav a{color:inherit;text-decoration:none;transition:color .2s}
+  .topbar nav a:hover{color:var(--teal)}
+  .ref-pill{font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--teal);font-weight:600}
+
+  /* ============ COVER ============ */
+  .cover{
+    min-height:92vh;
+    background:
+      radial-gradient(ellipse at 20% 30%, rgba(75,104,103,0.22) 0%, transparent 50%),
+      linear-gradient(135deg, var(--teal) 0%, var(--teal-deep) 55%, #0A2524 100%);
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+    padding:120px 48px 80px;
+  }
+  .cover::before{
+    content:"";position:absolute;inset:0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+    background-size:80px 80px;
+    pointer-events:none;
+  }
+  .cover-inner{max-width:1320px;margin:0 auto;position:relative;z-index:2;display:grid;grid-template-columns:1fr 320px;gap:80px;align-items:end;min-height:70vh}
+  .cover-meta{
+    display:flex;align-items:center;gap:14px;margin-bottom:48px;
+    font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:rgba(255,255,255,0.7);
+  }
+  .cover-meta .dot{width:4px;height:4px;border-radius:50%;background:var(--teal-mid)}
+  .cover h1{
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(42px,6.5vw,96px);
+    line-height:1.02;
+    letter-spacing:-0.015em;
+    margin-bottom:32px;
+    font-weight:400;
+  }
+  .cover h1 em{font-style:italic;color:var(--teal-mid);font-weight:400}
+  .cover-sub{
+    max-width:680px;font-size:18px;line-height:1.55;color:rgba(255,255,255,0.78);
+    font-weight:300;
+    border-left:2px solid var(--teal-mid);
+    padding-left:20px;
+  }
+  .cover-side{
+    border-left:1px solid rgba(255,255,255,0.15);
+    padding-left:28px;
+  }
+  .cover-side dt{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.55);margin-bottom:6px}
+  .cover-side dd{font-size:14px;color:#fff;margin-bottom:22px;font-weight:400}
+  .cover-side dd strong{font-weight:600}
+  .cover-footer{
+    position:absolute;bottom:40px;left:48px;right:48px;z-index:3;
+    max-width:1320px;margin:0 auto;
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:rgba(255,255,255,0.5);
+  }
+
+  /* ============ SECTION SHELL ============ */
+  section{padding:110px 48px;position:relative}
+  .wrap{max-width:1320px;margin:0 auto}
+  .section-tag{
+    display:flex;align-items:baseline;gap:18px;
+    margin-bottom:56px;
+    padding-bottom:20px;
+    border-bottom:1px solid var(--rule);
+  }
+  .section-num{
+    font-family:'DM Serif Display',serif;
+    font-size:14px;color:var(--teal);
+    letter-spacing:0.08em;
+  }
+  .section-label{
+    font-size:11px;letter-spacing:0.24em;text-transform:uppercase;
+    color:var(--stone-600);font-weight:500;
+  }
+  .section-title{
+    font-family:'DM Serif Display',serif;
+    font-size:clamp(36px,4.2vw,58px);
+    line-height:1.08;color:var(--ink);
+    max-width:900px;margin-bottom:24px;
+    letter-spacing:-0.012em;
+  }
+  .section-lead{
+    max-width:780px;font-size:17px;line-height:1.65;
+    color:var(--stone-600);font-weight:400;
+  }
+
+  /* ============ S1 — CAPITAL INTEGRAL ============ */
+  .firma{background:var(--white)}
+  .firma-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:40px}
+  .firma-body p{font-size:16px;line-height:1.75;color:var(--graphite);margin-bottom:20px}
+  .firma-body p strong{color:var(--ink);font-weight:600}
+  .firma-stats{
+    display:grid;grid-template-columns:1fr 1fr;gap:0;
+    border-top:1px solid var(--rule);
+    margin-top:24px;
+  }
+  .firma-stat{padding:28px 0;border-bottom:1px solid var(--rule)}
+  .firma-stat:nth-child(odd){padding-right:24px;border-right:1px solid var(--rule)}
+  .firma-stat:nth-child(even){padding-left:24px}
+  .firma-stat-num{
+    font-family:'DM Serif Display',serif;
+    font-size:42px;color:var(--teal);
+    line-height:1;margin-bottom:8px;
+  }
+  .firma-stat-label{font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--stone-600)}
+  .allies{margin-top:48px}
+  .allies-title{font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--stone-600);margin-bottom:20px}
+  .allies-list{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+    background:var(--rule);border:1px solid var(--rule);
+  }
+  .ally{
+    background:var(--paper);padding:16px 14px;
+    font-size:12px;letter-spacing:0.06em;color:var(--graphite);
+    text-align:center;font-weight:500;
+  }
+
+  /* ============ S2 — EXEC SUMMARY ============ */
+  .resumen{background:var(--teal-mist);position:relative}
+  .resumen::before{
+    content:"";position:absolute;top:0;left:0;right:0;height:1px;
+    background:linear-gradient(90deg,transparent,var(--teal) 50%,transparent);
+  }
+  .kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);margin-top:40px;border:1px solid var(--rule)}
+  .kpi{background:var(--white);padding:36px 28px}
+  .kpi-label{font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:var(--stone-600);margin-bottom:16px}
+  .kpi-value{font-family:'DM Serif Display',serif;font-size:38px;line-height:1;color:var(--ink);margin-bottom:6px;letter-spacing:-0.01em}
+  .kpi-unit{font-size:13px;color:var(--teal);font-weight:500;letter-spacing:0.04em}
+  .kpi-sub{font-size:12px;color:var(--stone-600);margin-top:10px;font-weight:400}
+
+  .deal-terms{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
+    background:var(--rule);border:1px solid var(--rule);margin-top:1px;
+  }
+  .deal-term{background:var(--ink);color:#fff;padding:32px 28px}
+  .deal-term-label{font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:rgba(255,255,255,0.55);margin-bottom:12px}
+  .deal-term-value{font-family:'DM Serif Display',serif;font-size:28px;line-height:1.1;color:#fff;letter-spacing:-0.01em}
+  .deal-term-value small{font-size:13px;color:var(--teal-mid);font-family:'DM Sans',sans-serif;font-weight:500;letter-spacing:0.04em;display:block;margin-top:4px}
+
+  /* ============ S3 — MERCADO ============ */
+  .mercado{background:var(--white)}
+  .mercado-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:72px;align-items:start}
+  .arg-list{list-style:none}
+  .arg-list li{padding:24px 0;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:60px 1fr;gap:28px;align-items:start}
+  .arg-list li:first-child{border-top:1px solid var(--rule)}
+  .arg-num{font-family:'DM Serif Display',serif;font-size:22px;color:var(--teal);letter-spacing:0.04em}
+  .arg-title{font-family:'DM Serif Display',serif;font-size:22px;line-height:1.2;color:var(--ink);margin-bottom:8px;letter-spacing:-0.01em}
+  .arg-text{font-size:14.5px;color:var(--stone-600);line-height:1.65}
+
+  .demo-panel{
+    background:var(--ink);color:#fff;padding:48px 40px;
+    position:relative;overflow:hidden;
+  }
+  .demo-panel::before{
+    content:"";position:absolute;top:0;right:0;width:180px;height:180px;
+    background:radial-gradient(circle,var(--teal) 0%,transparent 70%);
+    opacity:0.25;
+  }
+  .demo-panel-tag{font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:var(--teal-mid);margin-bottom:24px}
+  .demo-panel h3{font-family:'DM Serif Display',serif;font-size:26px;line-height:1.15;margin-bottom:32px;color:#fff;letter-spacing:-0.01em}
+  .demo-stats{display:grid;gap:20px;position:relative;z-index:2}
+  .demo-stat{display:grid;grid-template-columns:1fr auto;gap:16px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.12);align-items:baseline}
+  .demo-stat:last-child{border-bottom:none;padding-bottom:0}
+  .demo-stat-label{font-size:12px;color:rgba(255,255,255,0.7);letter-spacing:0.04em}
+  .demo-stat-value{font-family:'DM Serif Display',serif;font-size:24px;color:#fff}
+  .demo-note{
+    margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.15);
+    font-size:11.5px;color:rgba(255,255,255,0.5);line-height:1.55;
+  }
+
+  /* ============ S4 — UBICACIÓN ============ */
+  .ubicacion{background:var(--paper)}
+  .loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+  .loc-map{
+    background:var(--white);padding:12px;
+    border:1px solid var(--rule);
+    box-shadow:0 1px 0 rgba(13,25,24,0.04);
+  }
+  .loc-map img{width:100%;display:block}
+  .loc-map-cap{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:14px 8px 4px;
+    font-size:10.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--stone-600);
+  }
+  .loc-info h3{font-family:'DM Serif Display',serif;font-size:28px;line-height:1.15;color:var(--ink);margin-bottom:20px;letter-spacing:-0.01em}
+  .loc-info p{font-size:15px;line-height:1.7;color:var(--graphite);margin-bottom:18px}
+  .loc-attrs{margin-top:32px;border-top:1px solid var(--rule)}
+  .loc-attr{display:grid;grid-template-columns:200px 1fr;gap:20px;padding:16px 0;border-bottom:1px solid var(--rule);font-size:14px;align-items:center}
+  .loc-attr-k{font-size:10.5px;letter-spacing:0.18em;text-transform:uppercase;color:var(--stone-600)}
+  .loc-attr-v{color:var(--ink);font-weight:500}
+  .loc-attr-v em{font-style:normal;color:var(--teal);font-weight:600}
+
+  .influence-rings{margin-top:40px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}
+  .ring{background:var(--white);padding:24px 20px}
+  .ring-radius{font-family:'DM Serif Display',serif;font-size:28px;color:var(--teal);line-height:1;margin-bottom:8px}
+  .ring-label{font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:var(--stone-600);margin-bottom:10px}
+  .ring-desc{font-size:13px;color:var(--graphite);line-height:1.5}
+
+  /* ============ S5 — URBANÍSTICO ============ */
+  .urbanistico{background:var(--ink);color:#fff}
+  .urbanistico .section-title{color:#fff}
+  .urbanistico .section-lead{color:rgba(255,255,255,0.7)}
+  .urbanistico .section-num{color:var(--teal-mid)}
+  .urbanistico .section-label{color:rgba(255,255,255,0.6)}
+  .urbanistico .section-tag{border-bottom-color:rgba(255,255,255,0.15)}
+
+  .urb-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;margin-top:40px}
+  .urb-panel h4{font-family:'DM Serif Display',serif;font-size:22px;color:#fff;margin-bottom:20px;letter-spacing:-0.01em}
+  .urb-matrix{display:grid;gap:0}
+  .urb-row{display:grid;grid-template-columns:1fr auto;gap:20px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,0.15);align-items:baseline}
+  .urb-row:first-child{border-top:1px solid rgba(255,255,255,0.15)}
+  .urb-k{font-size:13px;color:rgba(255,255,255,0.7);letter-spacing:0.04em}
+  .urb-v{font-family:'DM Sans',sans-serif;font-size:14px;color:#fff;font-weight:500;letter-spacing:0.02em}
+  .urb-v.ok{color:var(--teal-mid)}
+
+  .urb-check{list-style:none;margin-top:8px}
+  .urb-check li{padding:16px 0;border-bottom:1px solid rgba(255,255,255,0.12);display:grid;grid-template-columns:24px 1fr;gap:16px;align-items:start}
+  .urb-check li:first-child{border-top:1px solid rgba(255,255,255,0.12)}
+  .urb-check .mark{color:var(--teal-mid);font-size:14px;line-height:1.5}
+  .urb-check .lbl{font-size:14px;color:rgba(255,255,255,0.9);line-height:1.55}
+  .urb-check .lbl strong{color:#fff;display:block;margin-bottom:3px;font-weight:600}
+
+  /* ============ S6 — ACTIVO ============ */
+  .activo{background:var(--white)}
+  .activo-hero{
+    display:grid;grid-template-columns:1.3fr 1fr;gap:48px;margin-top:40px;align-items:stretch;
+  }
+  .activo-main-img{
+    background:var(--stone-100);position:relative;overflow:hidden;
+    aspect-ratio:4/3;
+  }
+  .activo-main-img img{width:100%;height:100%;object-fit:cover;display:block}
+  .activo-caption{
+    position:absolute;bottom:0;left:0;right:0;
+    padding:20px 24px;
+    background:linear-gradient(to top,rgba(13,25,24,0.85),transparent);
+    color:#fff;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;
+  }
+  .activo-side{display:grid;grid-template-rows:1fr 1fr;gap:16px}
+  .activo-side-img{background:var(--stone-100);overflow:hidden;position:relative}
+  .activo-side-img img{width:100%;height:100%;object-fit:cover;display:block}
+
+  .activo-specs{margin-top:64px;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+  .specs-plan{background:var(--paper);padding:24px;border:1px solid var(--rule)}
+  .specs-plan img{width:100%;display:block}
+  .specs-plan-cap{font-size:10.5px;letter-spacing:0.18em;text-transform:uppercase;color:var(--stone-600);margin-top:14px;text-align:center}
+
+  .specs-table{}
+  .specs-table h4{font-family:'DM Serif Display',serif;font-size:26px;color:var(--ink);margin-bottom:8px;letter-spacing:-0.01em}
+  .specs-table .sub{font-size:14px;color:var(--stone-600);margin-bottom:28px}
+  .specs-row{display:grid;grid-template-columns:1fr auto;gap:16px;padding:18px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+  .specs-row:first-of-type{border-top:1px solid var(--rule)}
+  .specs-k{font-size:13px;color:var(--stone-600);letter-spacing:0.04em}
+  .specs-v{font-family:'DM Sans',sans-serif;font-size:15px;color:var(--ink);font-weight:600}
+  .specs-v.hl{color:var(--teal);font-family:'DM Serif Display',serif;font-size:20px;font-weight:400;letter-spacing:-0.01em}
+
+  /* ============ S7 — PROPUESTA ============ */
+  .propuesta{background:var(--teal-mist)}
+  .propuesta-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-top:40px}
+  .prop-card{
+    background:var(--white);padding:36px 28px;
+    border-top:3px solid var(--teal);
+    min-height:280px;display:flex;flex-direction:column;
+  }
+  .prop-card-num{font-size:11px;letter-spacing:0.22em;color:var(--teal);font-weight:600;margin-bottom:18px}
+  .prop-card h4{font-family:'DM Serif Display',serif;font-size:22px;line-height:1.2;color:var(--ink);margin-bottom:16px;letter-spacing:-0.01em}
+  .prop-card p{font-size:14px;line-height:1.7;color:var(--graphite);flex:1}
+  .prop-card footer{margin-top:20px;padding-top:16px;border-top:1px solid var(--rule);font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--stone-600)}
+
+  /* ============ S8 — TÉRMINOS ============ */
+  .terminos{background:var(--white)}
+  .terminos-panel{
+    background:linear-gradient(135deg,var(--teal) 0%,var(--teal-deep) 100%);
+    color:#fff;padding:64px 48px;margin-top:40px;
+    display:grid;grid-template-columns:1.5fr 2fr;gap:56px;align-items:center;
+    position:relative;overflow:hidden;
+  }
+  .terminos-panel::before{
+    content:"";position:absolute;top:-80px;right:-80px;width:320px;height:320px;
+    background:radial-gradient(circle,var(--teal-mid) 0%,transparent 70%);
+    opacity:0.22;
+  }
+  .terminos-left h3{font-family:'DM Serif Display',serif;font-size:32px;line-height:1.15;color:#fff;margin-bottom:16px;letter-spacing:-0.01em;position:relative;z-index:2}
+  .terminos-left p{font-size:14.5px;color:rgba(255,255,255,0.78);line-height:1.65;position:relative;z-index:2}
+  .terminos-right{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,0.15);position:relative;z-index:2}
+  .tr-item{background:rgba(13,25,24,0.55);padding:24px 22px;backdrop-filter:blur(6px)}
+  .tr-label{font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:rgba(255,255,255,0.6);margin-bottom:12px}
+  .tr-value{font-family:'DM Serif Display',serif;font-size:26px;color:#fff;line-height:1.15;letter-spacing:-0.01em}
+  .tr-value small{display:block;font-size:12px;color:var(--teal-mid);font-family:'DM Sans',sans-serif;font-weight:500;letter-spacing:0.04em;margin-top:4px}
+
+  /* ============ S9 — VALOR ARA ============ */
+  .valor{background:var(--paper)}
+  .valor-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;margin-top:40px;border:1px solid var(--rule)}
+  .valor-card{padding:40px 36px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--white)}
+  .valor-card:nth-child(2n){border-right:none}
+  .valor-card:nth-last-child(-n+2){border-bottom:none}
+  .valor-card-num{font-family:'DM Serif Display',serif;font-size:14px;color:var(--teal);letter-spacing:0.04em;margin-bottom:14px}
+  .valor-card h4{font-family:'DM Serif Display',serif;font-size:24px;line-height:1.15;color:var(--ink);margin-bottom:14px;letter-spacing:-0.01em}
+  .valor-card p{font-size:14.5px;line-height:1.7;color:var(--stone-600)}
+
+  /* ============ S10 — CIERRE ============ */
+  .cierre{
+    background:linear-gradient(180deg,var(--ink) 0%,#06110F 100%);
+    color:#fff;padding:140px 48px;
+    position:relative;overflow:hidden;
+  }
+  .cierre::before{
+    content:"";position:absolute;top:0;left:50%;width:1px;height:80px;
+    background:linear-gradient(to bottom,var(--teal-mid),transparent);
+  }
+  .cierre-inner{max-width:920px;margin:0 auto;text-align:center;position:relative;z-index:2}
+  .cierre-eyebrow{font-size:11px;letter-spacing:0.32em;text-transform:uppercase;color:var(--teal-mid);margin-bottom:32px}
+  .cierre h2{font-family:'DM Serif Display',serif;font-size:clamp(38px,5vw,68px);line-height:1.08;color:#fff;margin-bottom:32px;letter-spacing:-0.015em}
+  .cierre h2 em{font-style:italic;color:var(--teal-mid)}
+  .cierre p{font-size:17px;line-height:1.7;color:rgba(255,255,255,0.75);max-width:680px;margin:0 auto 48px;font-weight:300}
+  .cierre-cta{
+    display:inline-flex;align-items:center;gap:14px;
+    padding:18px 36px;
+    background:transparent;color:#fff;
+    border:1px solid var(--teal-mid);
+    font-size:12px;letter-spacing:0.22em;text-transform:uppercase;
+    text-decoration:none;transition:all .25s;
+  }
+  .cierre-cta:hover{background:var(--teal-mid);color:var(--ink)}
+  .cierre-cta::after{content:"→";font-size:16px;letter-spacing:0}
+
+  /* ============ FOOTER / CONTACTO ============ */
+  footer.contacto{background:var(--white);padding:72px 48px;border-top:1px solid var(--rule)}
+  .footer-inner{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:56px}
+  .foot-brand{display:flex;flex-direction:column;gap:14px}
+  .foot-brand-name{font-family:'DM Serif Display',serif;font-size:22px;color:var(--ink);letter-spacing:-0.01em}
+  .foot-brand-tag{font-size:12px;color:var(--stone-600);letter-spacing:0.04em;max-width:320px;line-height:1.6}
+  .foot-col h5{font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:var(--stone-400);margin-bottom:18px;font-weight:500}
+  .foot-col p, .foot-col a{font-size:14px;color:var(--graphite);line-height:1.7;display:block;text-decoration:none;margin-bottom:2px}
+  .foot-col a:hover{color:var(--teal)}
+  .foot-bar{
+    max-width:1320px;margin:56px auto 0;padding-top:28px;
+    border-top:1px solid var(--rule);
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--stone-400);
+  }
+
+  /* ============ PRINT ============ */
+  @media print{
+    .topbar{position:static}
+    section{page-break-inside:avoid;padding:48px}
+    .cover{min-height:auto;padding:48px}
+    .cierre{padding:48px}
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width:980px){
+    section, .cover{padding-left:24px;padding-right:24px}
+    .topbar-inner{padding:14px 24px}
+    .topbar nav{display:none}
+    .cover{padding-top:80px}
+    .cover-inner{grid-template-columns:1fr;gap:40px}
+    .cover-side{border-left:none;border-top:1px solid rgba(255,255,255,0.15);padding-left:0;padding-top:24px}
+    .cover-footer{position:static;margin-top:40px;flex-direction:column;gap:12px;align-items:flex-start}
+    .firma-grid,.mercado-grid,.loc-grid,.urb-grid,.activo-hero,.activo-specs,.terminos-panel{grid-template-columns:1fr;gap:40px}
+    .kpi-grid,.deal-terms,.propuesta-grid,.valor-grid,.influence-rings,.allies-list{grid-template-columns:repeat(2,1fr)}
+    .valor-card{border-right:none !important}
+    .valor-card:nth-child(2n-1){border-right:1px solid var(--rule) !important}
+    .footer-inner{grid-template-columns:1fr;gap:32px}
+    .terminos-right{grid-template-columns:1fr}
+  }
+  @media (max-width:560px){
+    .kpi-grid,.deal-terms,.propuesta-grid,.valor-grid,.influence-rings,.allies-list,.firma-stats{grid-template-columns:1fr}
+    .valor-card{border-right:none !important}
+    .activo-side{grid-template-rows:auto auto}
+    .activo-side-img{aspect-ratio:4/3}
+    .loc-attr,.specs-row,.urb-row,.demo-stat{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <img src="assets/logo-capital-integral.jpg" alt="Capital Integral Investments" class="brand-logo">
+      <div class="brand-text">Real Estate Investment Partner</div>
+    </div>
+    <nav>
+      <a href="#firma">Firma</a>
+      <a href="#resumen">Resumen</a>
+      <a href="#mercado">Mercado</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#activo">Activo</a>
+      <a href="#terminos">Términos</a>
+    </nav>
+    <div class="ref-pill">Ref. CI-ARA-SAP-001</div>
+  </div>
+</header>
+
+<!-- ============ COVER ============ -->
+<section class="cover">
+  <div class="cover-inner">
+    <div>
+      <div class="cover-meta">
+        <span>Propuesta Built-to-Suit</span>
+        <span class="dot"></span>
+        <span>Tiendas Ara · Jerónimo Martins</span>
+        <span class="dot"></span>
+        <span>Confidencial</span>
+      </div>
+      <h1>
+        San Antonio<br>
+        de Prado<br>
+        <em>Oportunidad estratégica<br>de expansión retail.</em>
+      </h1>
+      <p class="cover-sub">
+        Desarrollo Built-to-Suit de 390,28 m² sobre lote consolidado en Barrio Pradito, sector Estación de Bomberos — un nodo urbano con demanda estructural no atendida y perfil socioeconómico alineado al formato hard discount.
+      </p>
+    </div>
+    <aside class="cover-side">
+      <dl>
+        <dt>Activo</dt><dd>Lote 497 m² · Carrera 60D</dd>
+        <dt>Localización</dt><dd>Pradito · San Antonio de Prado · Medellín</dd>
+        <dt>Destinatario</dt><dd><strong>Tiendas Ara</strong> — Expansión Retail</dd>
+        <dt>Estructura</dt><dd>Built-to-Suit · Canon fijo + IPC</dd>
+        <dt>Fecha</dt><dd>Abril 2026</dd>
+      </dl>
+    </aside>
+  </div>
+  <div class="cover-footer">
+    <span>Capital Integral Investments</span>
+    <span>www.capitalintegral.co</span>
+  </div>
+</section>
+
+<!-- ============ S1 — FIRMA ============ -->
+<section id="firma" class="firma">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">01</span>
+      <span class="section-label">La firma</span>
+    </div>
+    <h2 class="section-title">Una firma especializada en estructurar activos inmobiliarios corporativos.</h2>
+    <p class="section-lead">Capital Integral Investments estructura, gestiona y comercializa inversiones inmobiliarias de carácter corporativo en Colombia, enfocada en activos reales con contratos de largo plazo y operadores de calidad crediticia institucional.</p>
+
+    <div class="firma-grid">
+      <div class="firma-body">
+        <p>Operamos en la industria de <strong>fondos de capital privado inmobiliario</strong> mediante la originación y estructuración de activos aptos para inversión, conectando capital, operadores y oportunidades con criterios de rentabilidad, transparencia y sostenibilidad.</p>
+        <p>Nuestra experiencia incluye <strong>modelos Built-to-Suit</strong>, comercialización de activos estabilizados y asesoría patrimonial a inversionistas institucionales y family offices, con tickets entre COP $1.000 MM y COP $30.000 MM.</p>
+        <p>Bajo el liderazgo de <strong>Juan Pablo Arboleda Ospina</strong>, Director General y fundador, Capital Integral se ha consolidado como aliado estratégico para grandes marcas e inversionistas de renta a largo plazo en Colombia.</p>
+
+        <div class="allies">
+          <div class="allies-title">Marcas y aliados con los que hemos trabajado</div>
+          <div class="allies-list">
+            <div class="ally">Tiendas D1</div>
+            <div class="ally">Grupo Éxito</div>
+            <div class="ally">Olímpica</div>
+            <div class="ally">Dollarcity</div>
+            <div class="ally">Bancolombia</div>
+            <div class="ally">Pactia</div>
+            <div class="ally">Sura</div>
+            <div class="ally">Colsubsidio</div>
+            <div class="ally">Ara</div>
+            <div class="ally">Patria</div>
+            <div class="ally">RobinFood</div>
+            <div class="ally">Juan Valdez</div>
+          </div>
+        </div>
+      </div>
+      <div class="firma-stats">
+        <div class="firma-stat">
+          <div class="firma-stat-num">20 años</div>
+          <div class="firma-stat-label">Horizonte contractual típico Built-to-Suit</div>
+        </div>
+        <div class="firma-stat">
+          <div class="firma-stat-num">AAA</div>
+          <div class="firma-stat-label">Perfil crediticio de arrendatarios objetivo</div>
+        </div>
+        <div class="firma-stat">
+          <div class="firma-stat-num">$1–30 MM</div>
+          <div class="firma-stat-label">Ticket de inversión estructurado (COP MM)</div>
+        </div>
+        <div class="firma-stat">
+          <div class="firma-stat-num">ColCapital</div>
+          <div class="firma-stat-label">Afiliado de la industria de capital privado</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S2 — RESUMEN EJECUTIVO ============ -->
+<section id="resumen" class="resumen">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">02</span>
+      <span class="section-label">Resumen ejecutivo</span>
+    </div>
+    <h2 class="section-title">Un activo Built-to-Suit listo para desarrollar en una zona sin presencia estructurada de hard discount.</h2>
+    <p class="section-lead">Propuesta integral para apertura de tienda Ara bajo esquema de desarrollo a la medida, sobre lote consolidado con viabilidad normativa inmediata, contrato de largo plazo y demanda estructural verificable en el área de influencia.</p>
+
+    <div class="kpi-grid">
+      <div class="kpi">
+        <div class="kpi-label">Localización</div>
+        <div class="kpi-value" style="font-size:24px;line-height:1.2">Barrio Pradito</div>
+        <div class="kpi-sub">San Antonio de Prado · Medellín</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Lote total</div>
+        <div class="kpi-value">497 <span style="font-size:16px;color:var(--stone-600)">m²</span></div>
+        <div class="kpi-sub">Consolidado · Carrera 60D</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Área tienda Ara</div>
+        <div class="kpi-value">390,28 <span style="font-size:16px;color:var(--stone-600)">m²</span></div>
+        <div class="kpi-sub">Local principal Built-to-Suit</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Local complementario</div>
+        <div class="kpi-value">50 <span style="font-size:16px;color:var(--stone-600)">m²</span></div>
+        <div class="kpi-sub">Droguería Farmanorte (ancla secundaria)</div>
+      </div>
+    </div>
+
+    <div class="deal-terms">
+      <div class="deal-term">
+        <div class="deal-term-label">Canon mensual propuesto</div>
+        <div class="deal-term-value">COP $20.000.000<small>+ IVA · sobre local principal (390,28 m²)</small></div>
+      </div>
+      <div class="deal-term">
+        <div class="deal-term-label">Vigencia contractual</div>
+        <div class="deal-term-value">20 años<small>Contrato institucional Built-to-Suit</small></div>
+      </div>
+      <div class="deal-term">
+        <div class="deal-term-label">Incremento anual</div>
+        <div class="deal-term-value">IPC Colombia<small>Ajuste automático anual · cobertura inflacionaria</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S3 — OPORTUNIDAD DE MERCADO ============ -->
+<section id="mercado" class="mercado">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">03</span>
+      <span class="section-label">Oportunidad de mercado</span>
+    </div>
+    <h2 class="section-title">Demanda estructural verificable en una zona subatendida por el formato hard discount organizado.</h2>
+    <p class="section-lead">San Antonio de Prado es uno de los corregimientos de mayor crecimiento poblacional del suroccidente de Medellín. El sector Pradito concentra hogares jóvenes de estratos 2 y 3 — el cliente core del formato Ara — en un entorno dominado por comercio fragmentado e informal, sin presencia estructurada de cadenas hard discount comparables.</p>
+
+    <div class="mercado-grid">
+      <ul class="arg-list">
+        <li>
+          <span class="arg-num">i.</span>
+          <div>
+            <h4 class="arg-title">Demanda natural, no aspiracional</h4>
+            <p class="arg-text">Alta densidad poblacional con predominancia de familias jóvenes y patrón de consumo diario de conveniencia. El tráfico es recurrente, no estacional, y la rotación de tique esperada está alineada al modelo operativo de Ara.</p>
+          </div>
+        </li>
+        <li>
+          <span class="arg-num">ii.</span>
+          <div>
+            <h4 class="arg-title">Mercado subatendido</h4>
+            <p class="arg-text">La oferta actual está concentrada en comercio fragmentado e informal. La baja penetración de formatos organizados representa una ventaja competitiva estructural para el primer operador en entrar con oferta estandarizada y precio.</p>
+          </div>
+        </li>
+        <li>
+          <span class="arg-num">iii.</span>
+          <div>
+            <h4 class="arg-title">Timing de expansión urbana</h4>
+            <p class="arg-text">Zona en expansión activa con desarrollo de vivienda VIS y proyecciones de mejoras en conectividad e infraestructura de transporte. La entrada al mercado se anticipa al pico de valorización — ventaja de primer movedor en un nodo consolidado.</p>
+          </div>
+        </li>
+        <li>
+          <span class="arg-num">iv.</span>
+          <div>
+            <h4 class="arg-title">Match con el formato Ara</h4>
+            <p class="arg-text">Alto flujo peatonal, consumo de conveniencia, sensibilidad al precio y potencial de fidelización: todos los atributos que definen un punto de caja diaria para hard discount se verifican en el área de influencia primaria.</p>
+          </div>
+        </li>
+      </ul>
+
+      <aside class="demo-panel">
+        <div class="demo-panel-tag">Perfil del área de influencia</div>
+        <h3>Datos demográficos y socioeconómicos del entorno inmediato.</h3>
+        <div class="demo-stats">
+          <div class="demo-stat">
+            <span class="demo-stat-label">Población estimada (1 km)</span>
+            <span class="demo-stat-value">~20.000</span>
+          </div>
+          <div class="demo-stat">
+            <span class="demo-stat-label">Estratos predominantes</span>
+            <span class="demo-stat-value">2 · 3</span>
+          </div>
+          <div class="demo-stat">
+            <span class="demo-stat-label">Cliente core Ara</span>
+            <span class="demo-stat-value">Match</span>
+          </div>
+          <div class="demo-stat">
+            <span class="demo-stat-label">Cadenas hard discount en el polígono</span>
+            <span class="demo-stat-value">Nula</span>
+          </div>
+          <div class="demo-stat">
+            <span class="demo-stat-label">Tipología de comercio actual</span>
+            <span class="demo-stat-value">Fragmentado</span>
+          </div>
+          <div class="demo-stat">
+            <span class="demo-stat-label">Tendencia demográfica</span>
+            <span class="demo-stat-value">Creciente</span>
+          </div>
+        </div>
+        <p class="demo-note">Fuente: análisis interno de Capital Integral Investments sobre cartografía DANE, POT Medellín y observación directa. Cifras indicativas; validables en fase de due diligence comercial.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S4 — ANÁLISIS DE UBICACIÓN ============ -->
+<section id="ubicacion" class="ubicacion">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">04</span>
+      <span class="section-label">Análisis de ubicación</span>
+    </div>
+    <h2 class="section-title">Un nodo urbano consolidado con reconocimiento inmediato y flujo peatonal continuo.</h2>
+    <p class="section-lead">La localización se ancla en la Estación de Bomberos de San Antonio de Prado — un hito urbano de referencia directa — sobre la Carrera 60D, vía de conexión entre zonas residenciales consolidadas y corredores de transporte local.</p>
+
+    <div class="loc-grid">
+      <div class="loc-map">
+        <img src="assets/zona-influencia.jpg" alt="Zona de influencia · Barrio Pradito · Estación de Bomberos San Antonio de Prado">
+        <div class="loc-map-cap">
+          <span>Fig. 01 — Polígono de influencia primaria</span>
+          <span>Radio aprox. 500 m</span>
+        </div>
+      </div>
+
+      <div class="loc-info">
+        <h3>Pradito · Sector Estación de Bomberos</h3>
+        <p>Punto de paso obligado sobre la malla residencial consolidada del corregimiento, con acceso directo a corredores de transporte público, flujo residencial permanente y proximidad inmediata a equipamientos de servicios básicos.</p>
+        <p>La posición adyacente a la Estación de Bomberos aporta un <strong>landmark urbano natural</strong> que opera como referencia de localización y refuerza el reconocimiento de marca desde el primer día de operación.</p>
+
+        <div class="loc-attrs">
+          <div class="loc-attr">
+            <span class="loc-attr-k">Dirección</span>
+            <span class="loc-attr-v">Carrera 60D — Barrio Pradito</span>
+          </div>
+          <div class="loc-attr">
+            <span class="loc-attr-k">Hito de referencia</span>
+            <span class="loc-attr-v">Estación de Bomberos San Antonio de Prado</span>
+          </div>
+          <div class="loc-attr">
+            <span class="loc-attr-k">Accesibilidad</span>
+            <span class="loc-attr-v"><em>Alta</em> — vía consolidada + transporte público</span>
+          </div>
+          <div class="loc-attr">
+            <span class="loc-attr-k">Tipología de flujo</span>
+            <span class="loc-attr-v">Peatonal y vehicular · no estacional</span>
+          </div>
+          <div class="loc-attr">
+            <span class="loc-attr-k">Proyecciones urbanas</span>
+            <span class="loc-attr-v">Expansión VIS activa · mejoras viales</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="influence-rings">
+      <div class="ring">
+        <div class="ring-label">Influencia primaria</div>
+        <div class="ring-radius">0–500 m</div>
+        <p class="ring-desc">Tráfico peatonal diario directo · flujo residencial de conveniencia.</p>
+      </div>
+      <div class="ring">
+        <div class="ring-label">Influencia secundaria</div>
+        <div class="ring-radius">500 m–1 km</div>
+        <p class="ring-desc">Captación de mercado recurrente sobre malla residencial consolidada.</p>
+      </div>
+      <div class="ring">
+        <div class="ring-label">Influencia terciaria</div>
+        <div class="ring-radius">1–2 km</div>
+        <p class="ring-desc">Base demográfica ampliada del corregimiento · tráfico motorizado ocasional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S5 — ANÁLISIS URBANÍSTICO ============ -->
+<section class="urbanistico">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">05</span>
+      <span class="section-label">Análisis urbanístico</span>
+    </div>
+    <h2 class="section-title">Lote clasificado en media mixtura, con uso comercial compatible y viabilidad normativa inmediata.</h2>
+    <p class="section-lead">El predio se ubica en un polígono de tratamiento que permite uso mixto con componente comercial, lo que habilita el desarrollo del local Built-to-Suit sin procesos normativos de excepción, con trámite de licencia de construcción por vía ordinaria.</p>
+
+    <div class="urb-grid">
+      <div class="urb-panel">
+        <h4>Parámetros normativos</h4>
+        <div class="urb-matrix">
+          <div class="urb-row">
+            <span class="urb-k">Clasificación urbanística</span>
+            <span class="urb-v">Media mixtura</span>
+          </div>
+          <div class="urb-row">
+            <span class="urb-k">Uso comercial</span>
+            <span class="urb-v ok">Compatible</span>
+          </div>
+          <div class="urb-row">
+            <span class="urb-k">Retiro frontal exigido</span>
+            <span class="urb-v">3,00 m (verificado en plano)</span>
+          </div>
+          <div class="urb-row">
+            <span class="urb-k">Marco normativo aplicable</span>
+            <span class="urb-v">POT Medellín · Acuerdo 048/2014</span>
+          </div>
+          <div class="urb-row">
+            <span class="urb-k">Licenciamiento</span>
+            <span class="urb-v ok">Vía ordinaria</span>
+          </div>
+          <div class="urb-row">
+            <span class="urb-k">Restricciones relevantes</span>
+            <span class="urb-v ok">No identificadas</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="urb-panel">
+        <h4>Implicaciones para Ara</h4>
+        <ul class="urb-check">
+          <li>
+            <span class="mark">◆</span>
+            <span class="lbl"><strong>Seguridad jurídica del desarrollo.</strong>Uso comercial expresamente permitido sobre el polígono; sin dependencia de modificaciones normativas o licencias de excepción.</span>
+          </li>
+          <li>
+            <span class="mark">◆</span>
+            <span class="lbl"><strong>Facilidad de licenciamiento.</strong>Trámite de licencia de construcción por Curaduría Urbana con parámetros estandarizados — ruta crítica contenida.</span>
+          </li>
+          <li>
+            <span class="mark">◆</span>
+            <span class="lbl"><strong>Viabilidad inmediata del proyecto.</strong>Lote consolidado, con frente sobre vía pública y retiros cumplidos; el desarrollo puede iniciar sin intervenciones urbanísticas previas.</span>
+          </li>
+          <li>
+            <span class="mark">◆</span>
+            <span class="lbl"><strong>Cronograma predecible.</strong>La estructura Built-to-Suit permite alinear el hito de apertura con el plan de expansión regional de Ara, con fechas comprometidas contractualmente.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S6 — INFORMACIÓN DEL ACTIVO ============ -->
+<section id="activo" class="activo">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">06</span>
+      <span class="section-label">Información del activo</span>
+    </div>
+    <h2 class="section-title">Desarrollo proyectado · 497 m² de lote · tienda principal y local complementario.</h2>
+    <p class="section-lead">Se presentan renders arquitectónicos preliminares, distribución de áreas en planta e implantación aérea sobre el lote. El proyecto contempla un local principal de 390,28 m² destinado a Tienda Ara y un local secundario de 50 m² destinado a operador farmacéutico (Droguería Farmanorte).</p>
+
+    <div class="activo-hero">
+      <div class="activo-main-img">
+        <img src="assets/render-fachada-01.jpg" alt="Render arquitectónico · fachada principal proyectada sobre Carrera 60D">
+        <div class="activo-caption">Render preliminar — fachada proyectada sobre Carrera 60D</div>
+      </div>
+      <div class="activo-side">
+        <div class="activo-side-img">
+          <img src="assets/render-fachada-02.jpg" alt="Render arquitectónico · vista frontal con droguería complementaria">
+        </div>
+        <div class="activo-side-img">
+          <img src="assets/implantacion-aerea.jpg" alt="Implantación aérea sobre lote · ortofoto">
+        </div>
+      </div>
+    </div>
+
+    <div class="activo-specs">
+      <div class="specs-plan">
+        <img src="assets/planos.jpg" alt="Distribución de áreas en planta · Local 1 390,28 m² y Local 2 50 m² sobre Carrera 60D">
+        <div class="specs-plan-cap">Fig. 02 — Distribución de áreas en planta · Carrera 60D</div>
+      </div>
+
+      <div class="specs-table">
+        <h4>Especificaciones del activo</h4>
+        <p class="sub">Cifras tomadas del plano arquitectónico de distribución de áreas, verificables en visita técnica.</p>
+
+        <div class="specs-row">
+          <span class="specs-k">Área total del lote</span>
+          <span class="specs-v hl">497 m²</span>
+        </div>
+        <div class="specs-row">
+          <span class="specs-k">Área Local 1 — Tienda Ara</span>
+          <span class="specs-v hl">390,28 m²</span>
+        </div>
+        <div class="specs-row">
+          <span class="specs-k">Área Local 2 — Droguería</span>
+          <span class="specs-v">50,00 m²</span>
+        </div>
+        <div class="specs-row">
+          <span class="specs-k">Frente sobre Carrera 60D</span>
+          <span class="specs-v">18,68 m</span>
+        </div>
+        <div class="specs-row">
+          <span class="specs-k">Retiro frontal</span>
+          <span class="specs-v">3,00 m</span>
+        </div>
+        <div class="specs-row">
+          <span class="specs-k">Tipología constructiva</span>
+          <span class="specs-v">Obra civil a la medida · 1 nivel</span>
+        </div>
+        <div class="specs-row">
+          <span class="specs-k">Flexibilidad de diseño</span>
+          <span class="specs-v">Adecuación al layout operativo Ara</span>
+        </div>
+        <div class="specs-row">
+          <span class="specs-k">Operador complementario</span>
+          <span class="specs-v">Droguería Farmanorte (contrato independiente)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S7 — PROPUESTA DE DESARROLLO ============ -->
+<section class="propuesta">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">07</span>
+      <span class="section-label">Propuesta de desarrollo</span>
+    </div>
+    <h2 class="section-title">Esquema Built-to-Suit estructurado para el estándar operativo Ara.</h2>
+    <p class="section-lead">El desarrollo es ejecutado por el propietario del lote bajo especificaciones de Tiendas Ara, entregando la obra terminada lista para dotación e inicio de operación. La estructura transfiere el riesgo constructivo fuera del operador retail.</p>
+
+    <div class="propuesta-grid">
+      <div class="prop-card">
+        <div class="prop-card-num">01 · Estructura</div>
+        <h4>Built-to-Suit a 20 años</h4>
+        <p>Desarrollo de obra civil por parte del propietario sobre lote consolidado, bajo especificaciones técnicas, layout y estándares de marca de Tiendas Ara. Entrega llave en mano, lista para operación.</p>
+        <footer>Obra civil · llave en mano</footer>
+      </div>
+      <div class="prop-card">
+        <div class="prop-card-num">02 · Diseño operativo</div>
+        <h4>Flexibilidad de layout</h4>
+        <p>Superficie de 390,28 m² con frente comercial sobre vía pública, sin columnas críticas y con capacidad de adaptar circulación, caja, bodega y zona de recibo según el estándar operativo de Ara.</p>
+        <footer>Adaptable al formato Ara</footer>
+      </div>
+      <div class="prop-card">
+        <div class="prop-card-num">03 · Activo complementario</div>
+        <h4>Local secundario 50 m²</h4>
+        <p>Local adicional de 50 m² destinado a Droguería Farmanorte como operador complementario. Genera sinergia de tráfico y refuerza el posicionamiento del punto como nodo de conveniencia del sector.</p>
+        <footer>Contrato independiente</footer>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S8 — TÉRMINOS COMERCIALES ============ -->
+<section id="terminos" class="terminos">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">08</span>
+      <span class="section-label">Términos comerciales</span>
+    </div>
+    <h2 class="section-title">Condiciones contractuales indicativas para Built-to-Suit.</h2>
+    <p class="section-lead">Estructura alineada a los estándares de contratación institucional de Tiendas Ara en formato hard discount — canon fijo, vigencia de largo plazo y ajuste por IPC.</p>
+
+    <div class="terminos-panel">
+      <div class="terminos-left">
+        <h3>Cifras indicativas del acuerdo.</h3>
+        <p>Condiciones sujetas a confirmación de especificaciones técnicas finales y firma de carta de intención. El canon aplica sobre el local principal de 390,28 m² destinado a Tienda Ara.</p>
+      </div>
+      <div class="terminos-right">
+        <div class="tr-item">
+          <div class="tr-label">Canon mensual</div>
+          <div class="tr-value">$20.000.000<small>COP · más IVA</small></div>
+        </div>
+        <div class="tr-item">
+          <div class="tr-label">Vigencia</div>
+          <div class="tr-value">20 años<small>Contrato de arrendamiento</small></div>
+        </div>
+        <div class="tr-item">
+          <div class="tr-label">Incremento</div>
+          <div class="tr-value">IPC<small>Ajuste anual · cobertura inflacionaria</small></div>
+        </div>
+        <div class="tr-item">
+          <div class="tr-label">Entrega</div>
+          <div class="tr-value">Llave en mano<small>Obra civil terminada según estándar Ara</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S9 — VALOR ESTRATÉGICO PARA ARA ============ -->
+<section class="valor">
+  <div class="wrap">
+    <div class="section-tag">
+      <span class="section-num">09</span>
+      <span class="section-label">Valor estratégico para Ara</span>
+    </div>
+    <h2 class="section-title">Posicionamiento anticipado en un nodo urbano en expansión.</h2>
+    <p class="section-lead">Seis tesis estratégicas que sustentan la entrada de Ara al sector Pradito como un movimiento defendible frente a la competencia futura y alineado con el plan de expansión territorial de Jerónimo Martins en Antioquia.</p>
+
+    <div class="valor-grid">
+      <div class="valor-card">
+        <div class="valor-card-num">i.</div>
+        <h4>Entrada a zona desatendida</h4>
+        <p>La ausencia de cadenas hard discount organizadas en el polígono primario permite capturar demanda estructural sin canibalización de tráfico existente ni guerra de precio con operadores equivalentes.</p>
+      </div>
+      <div class="valor-card">
+        <div class="valor-card-num">ii.</div>
+        <h4>Ventaja de primer movedor</h4>
+        <p>La entrada anticipada al nodo Pradito establece un posicionamiento defendible. La siguiente cadena comparable deberá competir con una marca ya instalada, con fidelización construida y economías de tráfico.</p>
+      </div>
+      <div class="valor-card">
+        <div class="valor-card-num">iii.</div>
+        <h4>Volumen y rotación diaria</h4>
+        <p>El perfil socioeconómico 2–3 y la tipología de consumo recurrente de conveniencia generan un patrón de caja diaria — no aspiracional — con rotación de tique alineada al modelo operativo del formato Ara.</p>
+      </div>
+      <div class="valor-card">
+        <div class="valor-card-num">iv.</div>
+        <h4>Bajo riesgo de desarrollo</h4>
+        <p>Lote consolidado, uso comercial compatible con el POT vigente, licenciamiento por vía ordinaria y esquema Built-to-Suit: tres capas independientes de mitigación del riesgo de ejecución.</p>
+      </div>
+      <div class="valor-card">
+        <div class="valor-card-num">v.</div>
+        <h4>Sinergia con operador farmacéutico</h4>
+        <p>La presencia de Droguería Farmanorte como ancla complementaria refuerza el concepto de nodo de conveniencia, genera tráfico cruzado y consolida el punto como destino comercial del sector.</p>
+      </div>
+      <div class="valor-card">
+        <div class="valor-card-num">vi.</div>
+        <h4>Escalabilidad territorial</h4>
+        <p>San Antonio de Prado es un corregimiento en expansión demográfica activa. Una apertura exitosa en Pradito establece precedente operativo y cobertura geográfica para futuras aperturas en el corregimiento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ S10 — CIERRE ============ -->
+<section class="cierre">
+  <div class="cierre-inner">
+    <div class="cierre-eyebrow">Siguiente paso</div>
+    <h2>Invitación a visita técnica<br>y evaluación del lote <em>in situ.</em></h2>
+    <p>Ponemos a disposición del equipo de expansión de Tiendas Ara toda la información técnica, normativa y comercial del activo para una evaluación formal. Sugerimos una visita de reconocimiento en sitio acompañada por el equipo de Capital Integral Investments.</p>
+    <a href="mailto:gerencia@capitalintegral.co?subject=San%20Antonio%20de%20Prado%20·%20Pradito%20·%20Oportunidad%20Built-to-Suit%20Ara" class="cierre-cta">Agendar visita técnica</a>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<footer class="contacto">
+  <div class="footer-inner">
+    <div class="foot-brand">
+      <img src="assets/logo-capital-integral.jpg" alt="Capital Integral Investments" style="height:54px;width:auto;display:block;margin-bottom:8px">
+      <div style="font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--teal);font-weight:600">Real Estate Investment Partner</div>
+      <p class="foot-brand-tag">Firma boutique especializada en estructuración, gestión y comercialización de inversiones inmobiliarias corporativas en Colombia.</p>
+    </div>
+    <div class="foot-col">
+      <h5>Contacto</h5>
+      <a href="mailto:gerencia@capitalintegral.co">gerencia@capitalintegral.co</a>
+      <a href="tel:+573217397055">+57 321 739 7055</a>
+      <a href="https://www.capitalintegral.co" target="_blank" rel="noopener">www.capitalintegral.co</a>
+    </div>
+    <div class="foot-col">
+      <h5>Oficina</h5>
+      <p>Torre Empresarial Inexmoda — Square</p>
+      <p>Carrera 43 #9 sur–195, oficina 935</p>
+      <p>El Poblado, Medellín, Antioquia</p>
+    </div>
+  </div>
+  <div class="foot-bar">
+    <span>© 2026 Capital Integral Investments</span>
+    <span>Ref. CI-ARA-SAP-001 · Documento confidencial</span>
+  </div>
+</footer>
+
+</body>
+</html>
